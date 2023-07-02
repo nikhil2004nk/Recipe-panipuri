@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.ingredients {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 33.33%;
+}
+
+header {
+    background-color: #689429;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    color: #f8f6f5;
+    padding: 3px;
+    text-align: center;
+}
+
+.feature-box {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Righteous', cursive;
+    background-color: rgb(133, 197, 29);
+    border: 2px solid;
+}
+
+.sewpuri {
+    width: 300px;
+}
+
+.feature-box:hover {
+    background-color: #689429;
+}
+
+marquee {
+    color: rgb(10, 23, 89);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.sevpuri-txt {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-family: 'Frank Ruhl Libre', Georgia, serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.instructions ol {
+    padding-left: 23px;
+}
+
+/*navbar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+nav a {
+    align-items: center;
+    padding: 40px;
+    width: 200px;
+}
+
+/*testimonal*/
+
+.carousel-item {
+    padding: 7% 15%;
+    background-color: rgb(101, 163, 30);
+    text-align: center;
+    height: 30%;
+}
+
+/* pricing wala box */
+#pricing {
+    text-align: center;
+    padding: 60px;
+}
+
+.pricing-coloumn {
+    padding: 3% 2%;
+}
+
+.card-header1 {
+    padding: 3%;
+    background-color:#689429
+  }
